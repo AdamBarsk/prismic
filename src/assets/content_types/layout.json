@@ -1,0 +1,72 @@
+{
+  "Header": {
+    "site_logo": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": null,
+          "height": null
+        },
+        "thumbnails": [],
+        "label": "Site Logo"
+      }
+    },
+    "site_tagline": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph, strong, em",
+        "label": "Site Tagline",
+        "placeholder": "Site Tagline..."
+      }
+    },
+    "tagline_text_color": {
+      "type": "Color",
+      "config": {
+        "label": "Tagline Text Color"
+      }
+    }
+  },
+  "Footer": {
+    "footer_links": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "link_label": {
+            "type": "StructuredText",
+            "config": {
+              "single": "paragraph",
+              "label": "Link Label",
+              "placeholder": "Link Label..."
+            }
+          },
+          "link": {
+            "type": "Link",
+            "config": {
+              "label": "Link"
+            }
+          }
+        },
+        "label": "Footer Links"
+      }
+    },
+    "footer_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 25,
+          "height": 25
+        },
+        "thumbnails": [],
+        "label": "Footer Icon"
+      }
+    },
+    "footer_text": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph, strong, em",
+        "label": "Footer Text",
+        "placeholder": "Enter footer text..."
+      }
+    }
+  }
+}
